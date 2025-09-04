@@ -1,6 +1,6 @@
 # 🚚 Delhivery Delay Prediction & Travel Time Optimization 
 
-![Logo](https://commons.wikimedia.org/wiki/File:Delhivery_Logo_(2019).png#/media/File:Delhivery_Logo_(2019).png)
+![Logo](https://github.com/abhiishek04/DELHIVERY-Supply-Chain-Optimization/blob/main/Delhivery_Logo_(2019).png)
 
 A **real-world data analytics & machine learning project** on Delhivery logistics trips, delivering insights into **delay risks, optimized travel times, and route-level bottlenecks** using **SQL, Python (ML), and Power BI**.  
 
