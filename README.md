@@ -1,4 +1,6 @@
-# 🚚 Delhivery Delay Prediction & Travel Time Optimization  
+# 🚚 Delhivery Delay Prediction & Travel Time Optimization 
+
+![Logo](https://commons.wikimedia.org/wiki/File:Delhivery_Logo_(2019).png#/media/File:Delhivery_Logo_(2019).png)
 
 A **real-world data analytics & machine learning project** on Delhivery logistics trips, delivering insights into **delay risks, optimized travel times, and route-level bottlenecks** using **SQL, Python (ML), and Power BI**.  
 
@@ -38,7 +40,7 @@ This project combines **SQL analysis, ML modeling, and BI dashboards** to delive
 ## 🛠️ Major Steps & Methodology  
 
 ### 📂 1. Data Collection & Overview  
-- **Delhivery logistics dataset** (~29K trips) with trip times, routes, distances.  
+- **Delhivery logistics dataset** (~144K trips) with trip times, routes, distances.  
 - **Features:** trip_uuid, route_type, source/destination centers, OSRM vs actual metrics.  
 
 ### 🧹 2. Data Validation & Cleaning (SQL)  
@@ -61,6 +63,7 @@ This project combines **SQL analysis, ML modeling, and BI dashboards** to delive
 - Accuracy = **97%**  
 
 **b. Travel Time Optimization (Regression)**  
+- Average Actual time is **416.93 min**
 - MAE = 43.91 mins  
 - RMSE = 92.88 mins  
 - SMAPE = 20.44%  
@@ -91,14 +94,14 @@ This project combines **SQL analysis, ML modeling, and BI dashboards** to delive
 ### Delay Distribution by Route Type  
 <img src="https://github.com/abhiishek04/DELHIVERY-Supply-Chain-Optimization/blob/main/Distribution%20of%20routes%20by%20route%20type.png" width="800">  
 
-### Hourly Delay Heatmap  
-<img src="Hourly_Delay_Heatmap.png" width="800">  
+### Average Travel Time by Hour of Day  
+<img src="https://github.com/abhiishek04/DELHIVERY-Supply-Chain-Optimization/blob/main/Avg%20travel%20time%20by%20hour%20day.png" width="800">  
 
-### OSRM vs ML Travel Time Accuracy  
-<img src="OSRM_vs_ML.png" width="800">  
+ ### Top 10 Most Delayed Routes  
+<img src="https://github.com/abhiishek04/DELHIVERY-Supply-Chain-Optimization/blob/main/top%2010%20most%20delayed%20routes.png" width="800"> 
 
-### Confusion Matrix (Delay Prediction)  
-<img src="Confusion_Matrix.png" width="600">  
+### Actual vs Predicted Time by Travel Time Estimation Model  
+<img src="https://github.com/abhiishek04/DELHIVERY-Supply-Chain-Optimization/blob/main/forects.png" width="800"> 
 
 ---
 
@@ -106,7 +109,7 @@ This project combines **SQL analysis, ML modeling, and BI dashboards** to delive
 - Built an **SQL-based pipeline** for delay insights.  
 - Applied **Logistic Regression (97% accuracy)** for delay classification.  
 - Built **Regression model (SMAPE 20.44%)** for ETA optimization.  
-- Delivered **Power BI dashboards** for leadership and ops teams.  
+- Delivered **Power BI dashboards** for leadership and ops teams. 
 
 ---
 
