@@ -89,7 +89,7 @@ This project combines **SQL analysis, ML modeling, and BI dashboards** to delive
 ## 📊 Key Visualizations  
 
 ### Delay Distribution by Route Type  
-<img src="Delay_By_Route.png" width="800">  
+<img src="https://github.com/abhiishek04/DELHIVERY-Supply-Chain-Optimization/blob/main/Distribution%20of%20routes%20by%20route%20type.png" width="800">  
 
 ### Hourly Delay Heatmap  
 <img src="Hourly_Delay_Heatmap.png" width="800">  
